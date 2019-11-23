@@ -1,0 +1,133 @@
+ul {
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0;
+  background-color: #2ecc71;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+  background-color: #27ae60;
+}
+
+.name {
+  float: left;
+  
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.home {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.maintext {
+  text-align: center;
+  padding: 100px 100px 150px 100px;
+  margin: 0 0 0 0;
+  font-size: 100px;
+}
+
+.about {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  float: left;
+  width: 69%;
+  font-size: 40px;
+  margin-left: 15px
+}
+
+b {
+  color: #2ecc71;
+}
+
+.face {
+  margin: 10px;
+  width: 25%;
+  float: right;
+  border-radius: 100%;
+  border-color: #2ecc71;
+  border-style: solid;
+}
+
+.portfolio {
+  background-color: #f0f0f0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 70px;
+  color: #2ecc71;
+}
+
+.portimg {
+  border-radius: 5%;
+  border-style: solid;
+  border-color: #2ecc71;
+  width: 30%;
+  margin: 0% 10% 5% 10%;
+}
+
+.cooltext {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.side {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 150px
+}
+
+.icon {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  color: black;
+}
+
+.icon a {
+  display: inline-block;
+  width: 33%;
+  color: black;
+}
+
+.icon a:hover {
+  background-color: #f0f0f0;
+  width: 33%;
+}
+
+.white {
+  background-color: white;
+  height: 410px;
+}
+
+card {
+  border-radius: 5px;
+  
+}
